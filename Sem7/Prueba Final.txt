@@ -1,0 +1,14 @@
+-- Pueba Final:
+* Yo necesito crear un proceso automático que haga las siguientes tareas:
+* Obtener la Cantidad de Ordenes y la suma Total del monto de todas sus Ordenes por cliente y por año, todo debe ser leído por el parametro @CodigoCliente.
+**Tablas: Sales.Orders y Sales.OrderDetails
+***Pasos:***
+1° Voy a crear una tabla con la siguiente estructura: 
+   CustID, Año, Conteo_Ord, Suma_VentaTotal 
+2° Insertar los registros a esa tabla cada vez que ejecuto mi procedimiento.
+3° Si en caso vuelven a ejecutar el SP con el mismo Código, borrar el de la tabla e insertar este nuevo registro o Actualizar* 
+   No debe haber duplicados de CustID,Año en la tabla.
+
+Email: carlos.reyes@cxocorporation.com
+Asunto: PruebaFinal_ApePaternoNombre_WE_SQL
+Cuerpo: Integrantes
